@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Vollkorn', serif;
+}
+
+#banner {
+    background: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-text {
+    text-align: center;
+    padding-top: 200px;
+    color: darkslategray;
+}
+
+.banner-text h1 {
+    font-size: 100px;
+    font-family: 'Kalam', cursive;
+}
+
+.navabout a {
+    text-decoration: none!important;
+    font-size: 30px;
+    color: darkslategray;
+}
+
+.navedu a {
+    text-decoration: none!important;
+    font-size: 30px;
+    color: darkslategray;
+}
+
+#aboutme {
+    margin-top: 3%;
+}
+
+.about {
+    display: flex;
+    margin: 0 10%;
+    justify-content: center;
+}
+
+.text-about {
+    padding: 10% 5%;
+    font-size: large;
+}
+
+.biodata {
+    display: flex;
+    padding-top: 5%;
+    margin: 0% 5%;
+}
+
+.text-resume {
+    margin: 1% 10%;
+    font-size: 20px;
+    padding-top: 1%;
+}
+
+
+@media screen and (max-width : 770px){
+    .banner-text h1{
+        font-size: 70px;
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .image-about {
+        flex-basis: 100%;
+    }
+
+    .image-about img {
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .text-about {
+        flex-basis: 100%;
+    }
+
+    .text-about p {
+        flex-basis: 100%;
+    }
+
+    .biodata {
+        flex-wrap: wrap;
+    }
+
+    .biodata p {
+        flex-basis: 100%;
+    }
+}
